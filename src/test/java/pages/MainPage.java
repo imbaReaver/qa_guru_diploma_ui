@@ -7,7 +7,6 @@ import static com.codeborne.selenide.WebDriverConditions.url;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class MainPage {
-
     public MainPage openPage() {
         open("https://e-legion.ru");
         return this;
